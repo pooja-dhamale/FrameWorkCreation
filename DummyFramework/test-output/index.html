@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\pdhama01\AppData\Local\Temp\testng-eclipse-1272264489\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\pdhama01\git\repository4\DummyFramework\batchexecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,160 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">27 methods, 1 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC03_Test" class="method navigator-link" hash-for-method="radiobutton">radiobutton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TestScript.TC02_Test" class="method navigator-link" hash-for-method="scrolldown">scrolldown</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC05_Test" class="method navigator-link" hash-for-method="Computertext">Computertext</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC06_Test" class="method navigator-link" hash-for-method="ElectronicsText">ElectronicsText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC01_Test" class="method navigator-link" hash-for-method="Searchbox">Searchbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC26_Test" class="method navigator-link" hash-for-method="TCPlinktext">TCPlinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC12_Test" class="method navigator-link" hash-for-method="apparellink">apparellink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC07_Test" class="method navigator-link" hash-for-method="appareltext">appareltext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC13_Test" class="method navigator-link" hash-for-method="awesomelinktext">awesomelinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC04_Test" class="method navigator-link" hash-for-method="books">books</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC14_Test" class="method navigator-link" hash-for-method="bookstextlinks">bookstextlinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC15_Test" class="method navigator-link" hash-for-method="camera">camera</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC16_Test" class="method navigator-link" hash-for-method="cell">cell</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC17_Test" class="method navigator-link" hash-for-method="compact">compact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC18_Test" class="method navigator-link" hash-for-method="computerlinkstext">computerlinkstext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC19_Test" class="method navigator-link" hash-for-method="coollinktext">coollinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC08_Test" class="method navigator-link" hash-for-method="digitaldownloadlink">digitaldownloadlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC20_Test" class="method navigator-link" hash-for-method="digitallinktext">digitallinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC10_Test" class="method navigator-link" hash-for-method="giftcardtext">giftcardtext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC21_Test" class="method navigator-link" hash-for-method="giftlinktext">giftlinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC09_Test" class="method navigator-link" hash-for-method="jewelery">jewelery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC22_Test" class="method navigator-link" hash-for-method="jewelerylinktext1">jewelerylinktext1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC02_Test" class="method navigator-link" hash-for-method="newsletter">newsletter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC23_Test" class="method navigator-link" hash-for-method="nicelinktext">nicelinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC24_Test" class="method navigator-link" hash-for-method="shirtlinktext">shirtlinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC25_Test" class="method navigator-link" hash-for-method="shoeslinktext">shoeslinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC11_Test" class="method navigator-link" hash-for-method="tricentis">tricentis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="HomePageTestScript.TC27_Test" class="method navigator-link" hash-for-method="viewAlllinktext">viewAlllinktext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,137 +256,1527 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestScript.TC02_Test</span>
+              <img src="failed.png"/>
+              <span class="class-name">HomePageTestScript.TC03_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="scrolldown">
-                  </a> <!-- scrolldown -->
-                  <span class="method-name">scrolldown</span>
+                  <a name="radiobutton">
+                  </a> <!-- radiobutton -->
+                  <span class="method-name">radiobutton</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&quot;pollanswers-3&quot;]&quot;}
+  (Session info: chrome=125.0.6422.142)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.0&apos;, revision: &apos;249f2a7d1b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [282438501dce7eaa4c3ea948fb1aa56d, findElement {using=xpath, value=//input[@id=&quot;pollanswers-3&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\pdhama01\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55128}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55128/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 282438501dce7eaa4c3ea948fb1aa56d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)
+	at HomePageTestScript.TC03_Test.radiobutton(TC03_Test.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC25_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shoeslinktext">
+                  </a> <!-- shoeslinktext -->
+                  <span class="method-name">shoeslinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC06_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ElectronicsText">
+                  </a> <!-- ElectronicsText -->
+                  <span class="method-name">ElectronicsText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC18_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="computerlinkstext">
+                  </a> <!-- computerlinkstext -->
+                  <span class="method-name">computerlinkstext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC04_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="books">
+                  </a> <!-- books -->
+                  <span class="method-name">books</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC16_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cell">
+                  </a> <!-- cell -->
+                  <span class="method-name">cell</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC22_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewelerylinktext1">
+                  </a> <!-- jewelerylinktext1 -->
+                  <span class="method-name">jewelerylinktext1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC23_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nicelinktext">
+                  </a> <!-- nicelinktext -->
+                  <span class="method-name">nicelinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC17_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compact">
+                  </a> <!-- compact -->
+                  <span class="method-name">compact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC01_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Searchbox">
+                  </a> <!-- Searchbox -->
+                  <span class="method-name">Searchbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC08_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="digitaldownloadlink">
+                  </a> <!-- digitaldownloadlink -->
+                  <span class="method-name">digitaldownloadlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC07_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appareltext">
+                  </a> <!-- appareltext -->
+                  <span class="method-name">appareltext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC20_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="digitallinktext">
+                  </a> <!-- digitallinktext -->
+                  <span class="method-name">digitallinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC05_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Computertext">
+                  </a> <!-- Computertext -->
+                  <span class="method-name">Computertext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC09_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="jewelery">
+                  </a> <!-- jewelery -->
+                  <span class="method-name">jewelery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC21_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftlinktext">
+                  </a> <!-- giftlinktext -->
+                  <span class="method-name">giftlinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC19_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="coollinktext">
+                  </a> <!-- coollinktext -->
+                  <span class="method-name">coollinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC15_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="camera">
+                  </a> <!-- camera -->
+                  <span class="method-name">camera</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC13_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="awesomelinktext">
+                  </a> <!-- awesomelinktext -->
+                  <span class="method-name">awesomelinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC14_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookstextlinks">
+                  </a> <!-- bookstextlinks -->
+                  <span class="method-name">bookstextlinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC27_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewAlllinktext">
+                  </a> <!-- viewAlllinktext -->
+                  <span class="method-name">viewAlllinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC10_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftcardtext">
+                  </a> <!-- giftcardtext -->
+                  <span class="method-name">giftcardtext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC02_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newsletter">
+                  </a> <!-- newsletter -->
+                  <span class="method-name">newsletter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC11_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tricentis">
+                  </a> <!-- tricentis -->
+                  <span class="method-name">tricentis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC12_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apparellink">
+                  </a> <!-- apparellink -->
+                  <span class="method-name">apparellink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC24_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shirtlinktext">
+                  </a> <!-- shirtlinktext -->
+                  <span class="method-name">shirtlinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HomePageTestScript.TC26_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TCPlinktext">
+                  </a> <!-- TCPlinktext -->
+                  <span class="method-name">TCPlinktext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\pdhama01\AppData\Local\Temp\testng-eclipse-1272264489\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\pdhama01\git\repository4\DummyFramework\batchexecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TestScript.TC02_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC01_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC02_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC03_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC04_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC05_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC06_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC07_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC08_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC09_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC10_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC11_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC12_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC13_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC14_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC15_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC16_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC17_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC18_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC19_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC20_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC21_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC22_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC23_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC24_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC25_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC26_Test&quot;/&gt;
+      &lt;class name=&quot;HomePageTestScript.TC27_Test&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (27 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(27);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'scrolldown')
-data.setCell(0, 2, 'TestScript.TC02_Test')
-data.setCell(0, 3, 7331);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'radiobutton')
+data.setCell(0, 2, 'HomePageTestScript.TC03_Test')
+data.setCell(0, 3, 17082);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Searchbox')
+data.setCell(1, 2, 'HomePageTestScript.TC01_Test')
+data.setCell(1, 3, 6209);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shoeslinktext')
+data.setCell(2, 2, 'HomePageTestScript.TC25_Test')
+data.setCell(2, 3, 5197);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'nicelinktext')
+data.setCell(3, 2, 'HomePageTestScript.TC23_Test')
+data.setCell(3, 3, 5078);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'jewelerylinktext1')
+data.setCell(4, 2, 'HomePageTestScript.TC22_Test')
+data.setCell(4, 3, 4933);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shirtlinktext')
+data.setCell(5, 2, 'HomePageTestScript.TC24_Test')
+data.setCell(5, 3, 4840);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'books')
+data.setCell(6, 2, 'HomePageTestScript.TC04_Test')
+data.setCell(6, 3, 4190);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'viewAlllinktext')
+data.setCell(7, 2, 'HomePageTestScript.TC27_Test')
+data.setCell(7, 3, 3616);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'giftlinktext')
+data.setCell(8, 2, 'HomePageTestScript.TC21_Test')
+data.setCell(8, 3, 3603);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'appareltext')
+data.setCell(9, 2, 'HomePageTestScript.TC07_Test')
+data.setCell(9, 3, 3585);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'digitaldownloadlink')
+data.setCell(10, 2, 'HomePageTestScript.TC08_Test')
+data.setCell(10, 3, 3233);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'digitallinktext')
+data.setCell(11, 2, 'HomePageTestScript.TC20_Test')
+data.setCell(11, 3, 2965);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Computertext')
+data.setCell(12, 2, 'HomePageTestScript.TC05_Test')
+data.setCell(12, 3, 2944);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'awesomelinktext')
+data.setCell(13, 2, 'HomePageTestScript.TC13_Test')
+data.setCell(13, 3, 2901);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ElectronicsText')
+data.setCell(14, 2, 'HomePageTestScript.TC06_Test')
+data.setCell(14, 3, 2822);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'newsletter')
+data.setCell(15, 2, 'HomePageTestScript.TC02_Test')
+data.setCell(15, 3, 2708);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'apparellink')
+data.setCell(16, 2, 'HomePageTestScript.TC12_Test')
+data.setCell(16, 3, 1288);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'jewelery')
+data.setCell(17, 2, 'HomePageTestScript.TC09_Test')
+data.setCell(17, 3, 1042);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'computerlinkstext')
+data.setCell(18, 2, 'HomePageTestScript.TC18_Test')
+data.setCell(18, 3, 926);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'camera')
+data.setCell(19, 2, 'HomePageTestScript.TC15_Test')
+data.setCell(19, 3, 914);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'coollinktext')
+data.setCell(20, 2, 'HomePageTestScript.TC19_Test')
+data.setCell(20, 3, 914);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'compact')
+data.setCell(21, 2, 'HomePageTestScript.TC17_Test')
+data.setCell(21, 3, 869);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TCPlinktext')
+data.setCell(22, 2, 'HomePageTestScript.TC26_Test')
+data.setCell(22, 3, 768);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'cell')
+data.setCell(23, 2, 'HomePageTestScript.TC16_Test')
+data.setCell(23, 3, 763);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'bookstextlinks')
+data.setCell(24, 2, 'HomePageTestScript.TC14_Test')
+data.setCell(24, 3, 762);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'giftcardtext')
+data.setCell(25, 2, 'HomePageTestScript.TC10_Test')
+data.setCell(25, 3, 761);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tricentis')
+data.setCell(26, 2, 'HomePageTestScript.TC11_Test')
+data.setCell(26, 3, 626);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">52 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC25_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC06_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC18_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC04_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC03_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC16_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC22_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC23_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC17_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC08_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC07_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC20_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC05_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC09_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC21_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC19_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC15_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC14_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC13_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC27_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC10_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC02_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC11_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC12_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC24_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">HomePageTestScript.TC26_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">aftersuite</span>
+                <br/>
+                <span class="ignored-method-name">beforesuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestScript.TC02_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">HomePageTestScript.TC01_Test</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforesuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(Chrome)</span>
-                <span class="method-start">888 ms</span>
+                <span class="method-start">3636 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void TestScript.TC02_Test.scrolldown() throws java.lang.Throwable)</span>
-                <span class="method-start">9766 ms</span>
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC01_Test.Searchbox() throws java.lang.Throwable)</span>
+                <span class="method-start">50289 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">scrolldown</span>
-                <span class="method-start">14586 ms</span>
+                <span class="method-name">Searchbox</span>
+                <span class="method-start">58401 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">aftermethod</span>
-                <span class="method-start">21927 ms</span>
+                <span class="method-start">64658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterclass</span>
+                <span class="method-start">76372 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC02_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">101570 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC02_Test.newsletter() throws java.lang.Throwable)</span>
+                <span class="method-start">117772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">newsletter</span>
+                <span class="method-start">236311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">239041 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterclass</span>
+                <span class="method-start">241576 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC03_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">266948 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC03_Test.radiobutton() throws java.lang.Throwable)</span>
+                <span class="method-start">307250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">radiobutton</span>
+                <span class="method-start">312399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">329487 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterclass</span>
-                <span class="method-start">22846 ms</span>
+                <span class="method-start">330934 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC04_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">335643 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC04_Test.books() throws java.lang.Throwable)</span>
+                <span class="method-start">338763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">books</span>
+                <span class="method-start">344298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">348494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">349404 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC05_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">351094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC05_Test.Computertext() throws java.lang.Throwable)</span>
+                <span class="method-start">353793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Computertext</span>
+                <span class="method-start">358750 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">361695 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">362600 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC06_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">367633 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC06_Test.ElectronicsText() throws java.lang.Throwable)</span>
+                <span class="method-start">372805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ElectronicsText</span>
+                <span class="method-start">377467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">380291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">381079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC07_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">401549 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC07_Test.appareltext() throws java.lang.Throwable)</span>
+                <span class="method-start">405333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">appareltext</span>
+                <span class="method-start">412100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">415687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">417551 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC08_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">424195 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC08_Test.digitaldownloadlink() throws java.lang.Throwable)</span>
+                <span class="method-start">428596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">digitaldownloadlink</span>
+                <span class="method-start">433738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">436977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">437815 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC09_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">440141 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC09_Test.jewelery())</span>
+                <span class="method-start">444268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">jewelery</span>
+                <span class="method-start">448660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">449704 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">450533 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC10_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">452568 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC10_Test.giftcardtext())</span>
+                <span class="method-start">456262 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftcardtext</span>
+                <span class="method-start">463036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">463798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">464606 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC11_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">476219 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC11_Test.tricentis())</span>
+                <span class="method-start">479389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tricentis</span>
+                <span class="method-start">483976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">484606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterclass</span>
+                <span class="method-start">485420 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC12_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">510444 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC12_Test.apparellink())</span>
+                <span class="method-start">513760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">apparellink</span>
+                <span class="method-start">519172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">520465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">521261 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC13_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">525946 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC13_Test.awesomelinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">529173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">awesomelinktext</span>
+                <span class="method-start">534938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">537845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">538717 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC14_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">540852 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC14_Test.bookstextlinks())</span>
+                <span class="method-start">544105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">bookstextlinks</span>
+                <span class="method-start">552272 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">553035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">553807 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC15_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">555258 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC15_Test.camera())</span>
+                <span class="method-start">559107 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">camera</span>
+                <span class="method-start">564601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">565517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">566333 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC16_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">569632 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC16_Test.cell())</span>
+                <span class="method-start">572250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cell</span>
+                <span class="method-start">577538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">578302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">579137 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC17_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">586720 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC17_Test.compact())</span>
+                <span class="method-start">591268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">compact</span>
+                <span class="method-start">595799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">596669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">597608 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC18_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">601609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC18_Test.computerlinkstext())</span>
+                <span class="method-start">605025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">computerlinkstext</span>
+                <span class="method-start">609853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">610780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">611771 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC19_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">616431 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC19_Test.coollinktext())</span>
+                <span class="method-start">619365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">coollinktext</span>
+                <span class="method-start">626843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">627759 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">628703 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC20_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">633062 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC20_Test.digitallinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">636154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">digitallinktext</span>
+                <span class="method-start">641117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">644088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">645144 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC21_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">650334 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC21_Test.giftlinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">653577 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftlinktext</span>
+                <span class="method-start">660903 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">664509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">665389 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC22_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">666078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC22_Test.jewelerylinktext1() throws java.lang.Throwable)</span>
+                <span class="method-start">670154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">jewelerylinktext1</span>
+                <span class="method-start">675039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">679975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">681679 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC23_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">682941 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC23_Test.nicelinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">686457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nicelinktext</span>
+                <span class="method-start">692487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">697566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">698473 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC24_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">699438 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC24_Test.shirtlinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">702425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shirtlinktext</span>
+                <span class="method-start">708527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">713368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">714128 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC25_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">714754 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC25_Test.shoeslinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">717268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shoeslinktext</span>
+                <span class="method-start">722465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">727663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">729607 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC26_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">730910 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC26_Test.TCPlinktext())</span>
+                <span class="method-start">733622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TCPlinktext</span>
+                <span class="method-start">740950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">741719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">742608 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC27_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome)</span>
+                <span class="method-start">743117 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void HomePageTestScript.TC27_Test.viewAlllinktext() throws java.lang.Throwable)</span>
+                <span class="method-start">745831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewAlllinktext</span>
+                <span class="method-start">750233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">aftermethod</span>
+                <span class="method-start">753851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">754624 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HomePageTestScript.TC01_Test</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">aftersuite</span>
-                <span class="method-start">23362 ms</span>
+                <span class="method-start">755364 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

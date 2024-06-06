@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScript.TC02_Test">
+      <class name="HomePageTestScript.TC03_Test">
         <methods>
           <include name="aftersuite"/>
           <include name="beforeClass"/>
@@ -11,9 +11,9 @@
           <include name="beforesuite"/>
           <include name="afterclass"/>
           <include name="aftermethod"/>
-          <include name="scrolldown"/>
+          <include name="radiobutton"/>
         </methods>
-      </class> <!-- TestScript.TC02_Test -->
+      </class> <!-- HomePageTestScript.TC03_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

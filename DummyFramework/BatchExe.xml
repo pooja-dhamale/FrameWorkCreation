@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="HomePageTestScript.TC17_Test"/>
+      <class name="HomePageTestScript.TC14_Test"/>
+      <class name="HomePageTestScript.TC25_Test"/>
+      <class name="HomePageTestScript.TC09_Test"/>
+      <class name="HomePageTestScript.TC20_Test"/>
+      <class name="HomePageTestScript.TC23_Test"/>
+      <class name="HomePageTestScript.TC02_Test"/>
+      <class name="HomePageTestScript.TC08_Test"/>
+      <class name="HomePageTestScript.TC12_Test"/>
+      <class name="HomePageTestScript.TC05_Test"/>
+      <class name="HomePageTestScript.TC13_Test"/>
+      <class name="HomePageTestScript.TC01_Test"/>
+      <class name="HomePageTestScript.TC16_Test"/>
+      <class name="HomePageTestScript.TC19_Test"/>
+      <class name="HomePageTestScript.TC24_Test"/>
+      <class name="HomePageTestScript.TC27_Test"/>
+      <class name="HomePageTestScript.TC21_Test"/>
+      <class name="HomePageTestScript.TC18_Test"/>
+      <class name="HomePageTestScript.TC04_Test"/>
+      <class name="HomePageTestScript.TC10_Test"/>
+      <class name="HomePageTestScript.TC15_Test"/>
+      <class name="HomePageTestScript.TC07_Test"/>
+      <class name="HomePageTestScript.TC26_Test"/>
+      <class name="HomePageTestScript.TC22_Test"/>
+      <class name="HomePageTestScript.TC06_Test"/>
+      <class name="HomePageTestScript.TC03_Test"/>
+      <class name="HomePageTestScript.TC11_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

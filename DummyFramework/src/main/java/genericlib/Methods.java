@@ -1,5 +1,11 @@
 package genericlib;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+import java.awt.Robot;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -78,10 +84,42 @@ public class Methods extends BaseClass{
 	public void rightClickOnElement(WebElement targetElement) {
 		Actions actions= new Actions(driver);
 		actions.contextClick(targetElement).perform();
+	}
 		
+	public void draganddropmethod(WebElement targetElement)
+		{
+			WebElement drag = driver.findElement(By.id("draggable"));
+			WebElement drop = driver.findElement(By.id("droppable"));
+			
+			Actions act = new Actions(driver);
+			act.dragAndDrop(drag, drop).perform();
+		}
+	
+	public void HandlingDropDownUsingRobotClass(WebElement targetElement) throws Throwable
+	{
+		Robot rob=new Robot();
+		rob.keyPress(KeyEvent.VK_ENTER);
+		rob.keyRelease(KeyEvent.VK_ENTER);
 		
 	}
 	
-}
+	public void navigateback()
+	{
+		driver.navigate().back();
+	}
+		
+	public void navigateForwaord()
+	{
+		driver.navigate().forward();
+	}
+	
+	public void navigateRefresh()
+	{
+		driver.navigate().refresh();
+	}
+		
+	}
+	
+
 
 

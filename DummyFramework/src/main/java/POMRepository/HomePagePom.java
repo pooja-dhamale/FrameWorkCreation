@@ -176,6 +176,13 @@ public class HomePagePom {
 		@FindBy(id="small-searchterms")
 		private WebElement serachbox;
 		
+		@FindBy(xpath="//input[@value=\"Search\"]")
+		private WebElement searchcta;
+		
+		public WebElement getSearchcta() {
+			return searchcta;
+		}
+
 		@FindBy(partialLinkText = "Jewelry")
 		private WebElement Jewelery;
 		
@@ -206,7 +213,7 @@ public class HomePagePom {
 		@FindBy(partialLinkText = "awesome")
 		private WebElement awesome;
 		
-		@FindBy(partialLinkText = "book")
+		@FindBy(xpath="//a[text()=\"book\"]")
 		private WebElement book;
 		
 		@FindBy(partialLinkText = "camera")
@@ -254,16 +261,16 @@ public class HomePagePom {
 		@FindBy(id="newsletter-subscribe-button")
 		private WebElement newslettersubscribebutton;
 		
-		@FindBy(partialLinkText = "Excellent")
+		@FindBy(xpath="//input[@id=\"pollanswers-1\"]")
 		private WebElement Excellentradio;
 		
-		@FindBy(partialLinkText = "Good")
+		@FindBy(xpath="//input[@id=\"pollanswers-2\"]")
 		private WebElement Goodradio;
 		
-		@FindBy(partialLinkText = "Poor")
+		@FindBy(xpath="//input[@id=\"pollanswers-3\"]")
 		private WebElement Poorradio;
 		
-		@FindBy(partialLinkText = "Very bad")
+		@FindBy(xpath="//input[@id=\"pollanswers-4\"]")
 		private WebElement Verybadradio;
 		
 		@FindBy(id="vote-poll-1")
@@ -293,7 +300,20 @@ public class HomePagePom {
 		@FindBy(partialLinkText = "Wishlist")
 		private WebElement Wishlistlintext;
 		
+		@FindBy(xpath="//a[text()=\"Next\"]")
+		private WebElement nextslider;
 		
+		@FindBy(xpath="//a[text()=\"Prev\"]")
+		private WebElement Prevslider;
+		
+		public WebElement getNextslider() {
+			return nextslider;
+		}
+
+		public WebElement getPrevslider() {
+			return Prevslider;
+		}
+
 		public WebElement getRegistertext() {
 			return RegisterButton;
 		}

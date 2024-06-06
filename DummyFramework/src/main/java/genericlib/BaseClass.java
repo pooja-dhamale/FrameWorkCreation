@@ -21,6 +21,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import POMRepository.BooksPagePom;
 import POMRepository.HomePagePom;
+import POMRepository.JeweleryPagePom;
 import POMRepository.LoginPagePom;
 import java.lang.reflect.Method;
 
@@ -38,6 +39,7 @@ public class BaseClass {
 	 public LoginPagePom lp;
 	 public Methods ms;
 	 public BooksPagePom bp;
+	 public JeweleryPagePom jp;
 	
 	@BeforeSuite
 	
@@ -70,11 +72,13 @@ public class BaseClass {
 	@BeforeMethod
 	public void beforeMethod(Method method) throws Throwable
 	{
+		
 		test=reports.createTest(method.getName());
 		test.log(Status.INFO, "Execution Started");
 		hp=new HomePagePom(driver);
 		lp=new LoginPagePom(driver);
 	    driver.get(um.getDataFromPropertyFile("url"));
+	    driver.manage().window().maximize();
 		hp.getLoginTextlink().click();
 		lp.getEmailIDtextField().sendKeys(um.getDataFromPropertyFile("username"));
 		lp.getPasswordField().sendKeys(um.getDataFromPropertyFile("password"));
@@ -93,7 +97,7 @@ public class BaseClass {
 	public void afterclass()
 	{
 	
-		driver.close();
+		driver.quit();
 		
 	}
 		
